@@ -1,4 +1,4 @@
-package app.ij.mlwithtensorflowlite;
+package io.muhammadkarbalaee.brainscan;
 
 import android.content.Context;
 
