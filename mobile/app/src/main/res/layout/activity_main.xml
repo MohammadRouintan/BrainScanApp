@@ -6,27 +6,26 @@
     tools:context=".MainActivity">
 
     <Button
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_centerInParent="true"
         android:id="@+id/button"
-        android:text="Take Picture"
-        android:textAllCaps="false"
-        android:layout_above="@id/button2"
-        android:textSize="21sp"
-        android:textStyle="bold"
-        />
-    <Button
-        android:layout_width="match_parent"
+        android:layout_width="235dp"
         android:layout_height="wrap_content"
+        android:layout_above="@id/button2"
         android:layout_centerInParent="true"
-        android:id="@+id/button2"
-        android:text="Launch Gallery"
+        android:text="Take a picture"
         android:textAllCaps="false"
-        android:layout_alignParentBottom="true"
         android:textSize="21sp"
-        android:textStyle="bold"
-        />
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="235dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerInParent="true"
+        android:text="Pick an Image"
+        android:textAllCaps="false"
+        android:textSize="21sp"
+        android:textStyle="bold" />
     <ImageView
         android:layout_width="370sp"
         android:layout_height="370sp"
@@ -38,7 +37,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_centerHorizontal="true"
-        android:text="Classified as:"
+        android:text=""
         android:textStyle="bold"
         android:textSize="20sp"
         android:id="@+id/classified"
@@ -50,7 +49,7 @@
         android:layout_height="wrap_content"
         android:layout_centerHorizontal="true"
         android:text=""
-        android:textColor="#C30000"
+        android:textColor="#000000"
         android:textStyle="bold"
         android:textSize="27sp"
         android:id="@+id/result"
