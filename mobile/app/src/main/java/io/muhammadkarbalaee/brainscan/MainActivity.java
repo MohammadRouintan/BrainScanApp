@@ -1,8 +1,3 @@
-/*
- * Created by ishaanjav
- * github.com/ishaanjav
- */
-
 package io.muhammadkarbalaee.brainscan;
 
 import androidx.annotation.Nullable;
